@@ -1,0 +1,39 @@
+.parent {
+    display: flex;
+    border: 3px dotted brown;
+    height: 200px;
+}
+
+.justify-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.space-between {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.orderrv-center {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.botright-col {
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+}
+
+.cneterbottom {
+    justify-content: center;
+    align-items: end;
+    justify-content: space-around;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
